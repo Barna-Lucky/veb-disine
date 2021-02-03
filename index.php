@@ -11,8 +11,14 @@
 
 </head>
 <body>
+  <div id="header">
+    
   <p><h1><b>Welcome</b> to this part of the interweb!</h1></p>
 
+  </div>
+
+  <div id="main">
+  </div>
 
 </body>
 </html>
