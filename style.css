@@ -3,14 +3,14 @@ h1 {
   font-family: 'Roboto', sans-serif;
 
 }
-h1.p.#header {
+p.h1 {
   text-align: center;
   vertical-align: middle;
   color: white;
 }
 #header{
  width: 100%;
- height: 100vh;
+ height: 100 vh;
  background-color: #426ceb;
 }
 #main{
@@ -19,9 +19,12 @@ h1.p.#header {
   font-family: 'Roboto', sans-serif;
   font-size: 12 pt;
 }
-title.p.#main {
+p.title {
+  font-size: 15 pt;
+  padding: 60 60 60 60 px;
 
 }
-description.p.#main {
+p.description{
+  padding: 60 60 60 60 px;
 
 }
