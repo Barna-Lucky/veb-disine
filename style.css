@@ -4,8 +4,9 @@ h1 {
 
 }
 p.h1 {
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
