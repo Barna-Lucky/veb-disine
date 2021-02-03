@@ -9,6 +9,7 @@ p.h1 {
   align-items: center;
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
 }
 #header{
  width: 100%;
