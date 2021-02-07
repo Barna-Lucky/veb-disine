@@ -2,11 +2,6 @@ body {
   margin: auto;
   padding: auto;
 }
-h1 {
-  font-size: 25pt;
-  font-family: 'Roboto', sans-serif;
-
-}
 
 p.h1 {
   color: white;
@@ -17,15 +12,16 @@ p.h1 {
  width: 100%;
  height: 100vh;
  background-color: #426ceb;
+ text-align: center;
 }
 #slogan {
-  width: auto;
+  width: 800px;
   position: absolute;
   top: 50%;
   bottom: 50%;
   text-align: center;
   margin-left: auto;
-margin-right: auto;
+  margin-right: auto;
 
 }
 #main {
