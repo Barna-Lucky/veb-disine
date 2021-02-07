@@ -11,8 +11,9 @@ p.h1 {
 #header {
  width: 100%;
  height: 100vh;
- background-color: #426ceb;
  text-align: center;
+ background-image: url(header.jpg);
+ background-repeat: no-repeat;
 }
 #slogan {
   width: 800px;
@@ -35,6 +36,7 @@ p.h1 {
 p.title {
   font-size: 15pt;
   padding: 2pt;
+  border-left: 8px black solid;
 
 }
 p.description{
