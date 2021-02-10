@@ -8,6 +8,14 @@ p.h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 25pt;
+  border-bottom: 5px red solid;
+}
+p.h1:hover {
+    border-bottom: 0px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 #header {
  width: 100%;
@@ -17,12 +25,12 @@ p.h1 {
  background-repeat: no-repeat;
 }
 #slogan {
-  width: 800px;
+  width: auto;
   position: absolute;
   top: 50%;
   bottom: 50%;
   text-align: center;
-  margin-left: auto;
+  margin-left: 20%;
   margin-right: auto;
 
 }
