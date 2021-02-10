@@ -25,7 +25,7 @@ p.h1 {
   margin-right: auto;
 
 }
-#main {
+div#main {
   width: 70%;
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -34,7 +34,7 @@ p.h1 {
   margin-right: auto;
   float: right;
 }
-#sidebar {
+div#sidebar {
   width: 20%;
   float: left;
   margin-left: auto;
