@@ -1,6 +1,7 @@
 body {
   margin: auto;
   padding: auto;
+  background-image: url(bodybg.jpg);
 }
 
 p.h1 {
@@ -33,6 +34,9 @@ div#main {
   margin-left: auto;
   margin-right: 20pt;
   float: right;
+  background-color: white;
+  margin-top: 40pt;
+  margin-bottom: 40pt;    
 }
 div#sidebar {
   width: 20%;
@@ -41,26 +45,28 @@ div#sidebar {
   margin-right: auto;
   color: black;
   font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin-top: 40pt;
 }
 p.side-title {
   font-size: 15pt;
-  padding: 2pt;
+  padding: 10pt;
   border-left: 8px red solid;
 
 }
 p.side-description {
   font-size: 12pt;
-  padding: 2pt;
+  padding: 20pt;
 
 }
 p.title {
   font-size: 15pt;
-  padding: 2pt;
-  border-left: 8px black solid;
+  padding: 10pt;
+  border-left: 8px red solid;
 
 }
 p.description{
-  padding: 2pt;
+  padding: 20pt;
   text-align: justify;
 
 }
