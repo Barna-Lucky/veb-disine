@@ -50,7 +50,7 @@ div#sidebar {
 }
 p.side-title {
   font-size: 15pt;
-  padding: 10pt;
+  padding: 10pt 10pt 5pt 10pt;
   border-left: 8px red solid;
 
 }
@@ -61,7 +61,7 @@ p.side-description {
 }
 p.title {
   font-size: 15pt;
-  padding: 10pt;
+  padding: 10pt 10pt 5pt 10pt;
   border-left: 8px red solid;
 
 }
