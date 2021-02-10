@@ -32,6 +32,13 @@ p.h1 {
   font-size: 12pt;
   margin-left: auto;
   margin-right: auto;
+  float: right;
+}
+#sidebar {
+  width: 20%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 p.title {
   font-size: 15pt;
