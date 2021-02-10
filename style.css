@@ -39,6 +39,19 @@ p.h1 {
   float: left;
   margin-left: auto;
   margin-right: auto;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+p.side-title {
+  font-size: 15pt;
+  padding: 2pt;
+  border-left: 8px black solid;
+
+}
+p.side-description {
+  font-size: 12pt;
+  padding: 2pt;
+
 }
 p.title {
   font-size: 15pt;
