@@ -8,7 +8,7 @@ p.h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 25pt;
-  border-bottom: 5px red solid;
+  border-bottom: 10px #B50909 solid;
 }
 p.h1:hover {
     border-bottom: 0px;
@@ -59,8 +59,13 @@ div#sidebar {
 p.side-title {
   font-size: 15pt;
   padding: 10pt 10pt 5pt 10pt;
-  border-left: 8px red solid;
-
+  border-left: 8px #B50909 solid;
+  border-bottom: 15px transparent solid;
+  border-image-source: url(bottomborder.png);
+  border-image-slice: fill;
+  border-image-width: 0 0 15px 0;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
 }
 p.side-description {
   font-size: 12pt;
@@ -70,8 +75,9 @@ p.side-description {
 p.title {
   font-size: 15pt;
   padding: 10pt 10pt 5pt 10pt;
-  border-left: 8px red solid;
-
+  border-left: 8px #B50909 solid;
+  border-image: url(bottomborder.png) 10% stretch;
+  border-bottom: 15px transparent solid;
 }
 p.description{
   padding: 20pt;
